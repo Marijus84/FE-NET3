@@ -1,0 +1,44 @@
+div {
+  box-sizing: content-box;
+  height: 400px;
+  width: 400px;
+  /* border-style: solid;
+  border-width: 10px;
+  border-color: crimson; */
+  /* text-align: center; */
+  /* line-height: 400px; */
+
+  border: solid 10px crimson;
+
+  border-top: dotted 5px blue;
+  border-bottom-color: aqua;
+  border-right-width: 20px;
+
+  border-radius: 25px;
+  border-bottom-left-radius: 80px;
+  margin: 25px auto;
+  background: crimson;
+}
+
+#first {
+  /* background-color: orangered;
+  background-image: url("coffee-resized.jpg");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain; */
+  background: orangered url("coffee resized.jpg") no-repeat center right;
+  background-size: contain;
+  /* padding: 100px; */
+  width: 400px;
+}
+
+#second {
+  box-sizing: border-box;
+  width: 400px;
+  border: black 5px solid;
+  padding: 2rem;
+}
+
+#inner {
+  width: 100%;
+}

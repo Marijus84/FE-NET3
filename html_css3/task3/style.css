@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  font-size: 2em;
+  text-align: center;
+}
+
+div div {
+  background: crimson;
+  border: 1px solid black;
+  margin: 1rem auto;
+}
+
+#one,
+#two,
+#three,
+#four {
+  width: 300px;
+  aspect-ratio: 1;
+}
+
+#two {
+  padding: 50px;
+}
+
+#three {
+  width: 45%;
+  height: 100px;
+}
+
+#four {
+  height: 250px;
+  width: 200px;
+}
+
+button {
+  padding: 1rem 2rem;
+  margin: 100px;
+  background-color: aqua;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 50%;
+}

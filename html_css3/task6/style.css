@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(80, 2, 80);
+  text-align: center;
+  color: rgb(143, 20, 20);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+div {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 5% 20%;
+  padding: 2%;
+  border: 3px dotted orange;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: orange;
+}
+
+h2 {
+  text-transform: capitalize;
+}
+
+p {
+  text-align: justify;
+  letter-spacing: 2px;
+}
+
+img {
+  width: 85%;
+  margin-top: 50px;
+  border-width: 25px;
+  border-radius: 70px;
+  border-color: white green blue black;
+  border-style: solid;
+}
+
+span {
+  font-size: 3rem;
+  padding-right: 10px;
+}

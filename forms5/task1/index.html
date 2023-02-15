@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Task 1 form</title>
+  </head>
+  <body>
+    <form action="index.html" target="_blank" method="post">
+      <h1>Create an account</h1>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" autofocus required />
+      <label for="pass">Password:</label>
+      <input
+        type="password"
+        id="pass"
+        name="password"
+        minlength="8"
+        maxlength="22"
+        required
+      />
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" size="5" required />
+      <label for="description">Tell us a little about yourself:</label>
+      <textarea
+        name="description"
+        id="description"
+        cols="25"
+        rows="5"
+        maxlength="200"
+      ></textarea>
+      <input type="checkbox" id="terms" name="terms" value="true" required />
+      <label for="terms"
+        >I agree to the
+        <a href="https://google.com"> terms of service</a></label
+      >
+      <input type="hidden" name="hidden-field" value="1234" />
+      <button type="submit">Sign up</button>
+    </form>
+  </body>
+</html>

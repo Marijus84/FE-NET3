@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Forms class work</title>
+  </head>
+  <body>
+    <form action="https://formspree.io/f/mknajlrp" method="POST">
+      <h2>Asmens apklausos forma</h2>
+      <fieldset>
+        <legend>Asmeniniai duomenys</legend>
+        <label for="vardas">Vardas</label>
+        <input type="text" id="vardas" name="name" required autofocus />
+        <label for="pavarde">Pavardė</label>
+        <input type="text" id="pavarde" name="lastname" />
+        <label for="elpastas">E paštas</label>
+        <input type="email" id="elpastas" name="email" />
+      </fieldset>
+      <h4>Mėgstamiausias gėrimas</h4>
+      <input type="radio" id="kava" name="drink" value="coffee" />
+      <label for="kava">Kava</label>
+      <input type="radio" id="arbata" name="drink" value="tea" />
+      <label for="arbata">Arbata</label>
+      <input type="radio" id="alus" name="drink" value="beer" />
+      <label for="alus">Alus</label>
+      <input type="radio" id="kita" name="drink" value="other" />
+      <label for="kita">Kitas gėrimas</label>
+
+      <h4>Mėgstamiausi filmai</h4>
+      <input type="checkbox" id="komedija" name="movie1" value="comedy" />
+      <label for="komedija">Komedija</label>
+      <input type="checkbox" id="fantastiniai" name="movie2" value="fantasy" />
+      <label for="fantastiniai">Fantastiniai</label>
+      <input type="checkbox" id="kiti" name="movie3" value="other" />
+      <label for="kiti">Kiti</label>
+
+      <h4>Gimtimė</h4>
+      <select name="hometown">
+        <option value="" disabled selected>Miestas</option>
+        <option value="vilnius">Vilnius</option>
+        <option value="kaunas">Kaunas</option>
+        <option value="klaipeda">Klaipėda</option>
+        <option value="other">Kita</option>
+      </select>
+
+      <button type="submit">Pateikti duomenis</button>
+    </form>
+
+    <!-- <form action="index.html" method="get" target="_self">
+      <fieldset>
+        <legend>I am legend of this fieldset</legend>
+        <label for="name">Enter your name</label>
+        <input type="text" id="name" value="initial value" maxlength="5" />
+        <br />
+        <input type="date" max="2024-05-01" min="2020-04-01" />
+        <input type="radio" />
+        <br />
+        <input type="number" min="18" max="100" step="2" />
+      </fieldset>
+      <input type="checkbox" />
+      <input type="password" required />
+      <input type="email" placeholder="please enter your email" autofocus />
+      <input type="submit" />
+      <input type="hidden" value="unseen" />
+      <br />
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+    </form> -->
+  </body>
+</html>

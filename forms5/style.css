@@ -1,0 +1,31 @@
+form {
+  width: 350px;
+  margin: 5% auto;
+  background-color: crimson;
+  padding: 3rem;
+  border-radius: 8%;
+  text-align: center;
+}
+
+fieldset input {
+  display: block;
+  width: 80%;
+  margin: 1rem auto;
+  padding: 0.7rem;
+  border: solid 1px black;
+}
+
+button {
+  display: block;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: lightblue;
+  border: none;
+  border-radius: 5%;
+}
+
+select {
+  width: 80%;
+  padding: 1rem;
+  background-color: lightblue;
+}

@@ -49,6 +49,18 @@ function handleFormSubmit(event) {
   validateInput(email, 1, "email ");
   validateInput(password, 2, "password ");
   validateInput(hometown, 3, "hometown ");
+
+  //! Task 1 solution
+  /*
+  const repeatPasswordInput = event.target.passwordRepeat;
+  if (repeatPasswordInput.value !== password.value) {
+    errorElements[3].textContent = "Passwords do not match";
+    repeatPasswordInput.style.border = "2px solid red";
+  } else {
+    errorElements[3].textContent = "";
+    repeatPasswordInput.style.border = "1px solid lightgrey";
+  }
+  */
 }
 
 //! focus and blur

@@ -37,3 +37,9 @@ fetch(url)
   .then((data) => console.log(data))
   .catch((e) => console.log(e))
   .finally(() => console.log("fetching finished"));
+
+/*
+https://kaker-js-crud.onrender.com/cafe-04/party - masyvas su vienu objektu; 
+https://kaker-js-crud.onrender.com/cafe-04/wedding - masyvas su daug objektu; 
+https://kaker-js-crud.onrender.com/cafe-04/meme - objektas su img nuoroda; 
+*/
